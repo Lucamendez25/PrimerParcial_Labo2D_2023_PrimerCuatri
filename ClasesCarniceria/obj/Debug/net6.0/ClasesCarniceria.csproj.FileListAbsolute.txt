@@ -1,0 +1,12 @@
+C:\Users\Luca\source\repos\ClasesCarniceria\bin\Debug\net6.0\ClasesCarniceria.deps.json
+C:\Users\Luca\source\repos\ClasesCarniceria\bin\Debug\net6.0\ClasesCarniceria.dll
+C:\Users\Luca\source\repos\ClasesCarniceria\bin\Debug\net6.0\ClasesCarniceria.pdb
+C:\Users\Luca\source\repos\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.csproj.AssemblyReference.cache
+C:\Users\Luca\source\repos\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luca\source\repos\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.AssemblyInfoInputs.cache
+C:\Users\Luca\source\repos\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.AssemblyInfo.cs
+C:\Users\Luca\source\repos\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.csproj.CoreCompileInputs.cache
+C:\Users\Luca\source\repos\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.dll
+C:\Users\Luca\source\repos\ClasesCarniceria\obj\Debug\net6.0\refint\ClasesCarniceria.dll
+C:\Users\Luca\source\repos\ClasesCarniceria\obj\Debug\net6.0\ClasesCarniceria.pdb
+C:\Users\Luca\source\repos\ClasesCarniceria\obj\Debug\net6.0\ref\ClasesCarniceria.dll
