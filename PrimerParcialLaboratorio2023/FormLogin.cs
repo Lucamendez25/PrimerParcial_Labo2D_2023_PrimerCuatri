@@ -52,6 +52,7 @@ namespace PrimerParcialLaboratorio2023
                         {
                             FormHeladera formHeladera = new FormHeladera(auxUsuario, this);
                             formHeladera.Show();
+                            this.Hide();
                             break;
                         }
                     }

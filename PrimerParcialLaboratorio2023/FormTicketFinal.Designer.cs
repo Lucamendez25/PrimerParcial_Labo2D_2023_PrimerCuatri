@@ -30,6 +30,7 @@
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTicketFinal));
             groupBoxMetodoDePago = new GroupBox();
             radioButtonDebito = new RadioButton();
             radioButtonCredito = new RadioButton();
@@ -176,6 +177,7 @@
             Controls.Add(labelTotalCarrito);
             Controls.Add(dataGridViewCarritoFinal);
             Controls.Add(groupBoxMetodoDePago);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormTicketFinal";
             Text = "Ticket Final";
             FormClosed += FormTicketFinal_FormClosed;

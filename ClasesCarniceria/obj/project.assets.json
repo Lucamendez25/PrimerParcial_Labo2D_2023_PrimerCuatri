@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luca\\source\\repos\\ClasesCarniceria\\ClasesCarniceria.csproj",
+      "projectUniqueName": "C:\\Users\\Luca\\Desktop\\Trabajo Practico 1\\ClasesCarniceria\\ClasesCarniceria.csproj",
       "projectName": "ClasesCarniceria",
-      "projectPath": "C:\\Users\\Luca\\source\\repos\\ClasesCarniceria\\ClasesCarniceria.csproj",
+      "projectPath": "C:\\Users\\Luca\\Desktop\\Trabajo Practico 1\\ClasesCarniceria\\ClasesCarniceria.csproj",
       "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luca\\source\\repos\\ClasesCarniceria\\obj\\",
+      "outputPath": "C:\\Users\\Luca\\Desktop\\Trabajo Practico 1\\ClasesCarniceria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",

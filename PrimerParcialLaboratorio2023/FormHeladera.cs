@@ -98,5 +98,10 @@ namespace PrimerParcialLaboratorio2023
                 }
             }
         }
+
+        private void FormHeladera_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            formLogin.Show();
+        }
     }
 }

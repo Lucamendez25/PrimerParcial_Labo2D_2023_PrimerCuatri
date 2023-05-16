@@ -33,6 +33,7 @@
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHeladera));
             dataGridViewListaProductos = new DataGridView();
             buttonInformacionProducto = new Button();
             buttonVenderACliente = new Button();
@@ -155,9 +156,11 @@
             Controls.Add(buttonInformacionProducto);
             Controls.Add(dataGridViewListaProductos);
             Font = new Font("Modern No. 20", 11.249999F, FontStyle.Regular, GraphicsUnit.Point);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4, 3, 4, 3);
             Name = "FormHeladera";
             Text = "Heladera";
+            FormClosed += FormHeladera_FormClosed;
             Load += FormHeladera_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewListaProductos).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewListaClientes).EndInit();

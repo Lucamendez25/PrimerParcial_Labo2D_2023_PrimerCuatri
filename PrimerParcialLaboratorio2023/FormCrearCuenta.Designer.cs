@@ -29,6 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCrearCuenta));
             textBoxNombre = new TextBox();
             textBoxApellido = new TextBox();
             textBoxDni = new TextBox();
@@ -208,7 +209,7 @@
             // 
             pictureBox1.Image = Properties.Resources.Vaquita1;
             pictureBox1.Location = new Point(348, 172);
-            pictureBox1.Margin = new Padding(4, 4, 4, 4);
+            pictureBox1.Margin = new Padding(4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(147, 99);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -239,6 +240,7 @@
             Controls.Add(textBoxApellido);
             Controls.Add(textBoxNombre);
             Font = new Font("Modern No. 20", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5, 4, 5, 4);
             Name = "FormCrearCuenta";
             Text = "Form1";

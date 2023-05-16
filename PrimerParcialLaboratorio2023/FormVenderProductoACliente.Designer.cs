@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormVenderProductoACliente));
             dataGridViewListaProductos = new DataGridView();
             labelUsuario = new Label();
             buttonVender = new Button();
@@ -101,9 +102,10 @@
             Controls.Add(dataGridViewListaProductos);
             Font = new Font("Modern No. 20", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5, 4, 5, 4);
             Name = "FormVenderProductoACliente";
-            Text = "Form1";
+            Text = "Vender Productos a Clientes";
             Load += FormVenderProductoACliente_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewListaProductos).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
